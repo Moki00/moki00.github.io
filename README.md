@@ -1,5 +1,5 @@
 # moki00.github.io
-public Web App
+Check out my online profile:
 
-<a>https://moki00.github.io/</a>
+
 https://moki00.github.io/
