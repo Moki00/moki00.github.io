@@ -1,6 +1,3 @@
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -410,7 +407,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -514,7 +511,7 @@ section {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.portfolio #portfolio-filters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -524,25 +521,28 @@ section {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
-  text-transform: uppercase;
   color: #272829;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-filters li:hover,
+.portfolio #portfolio-filters li.filter-active {
   color: #149ddd;
+  background: #000000;
+  border-radius: 50px;
+  margin-bottom: 0;
+  font-weight: bold;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
 
