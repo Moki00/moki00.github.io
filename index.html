@@ -44,6 +44,21 @@
     <!-- email -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- My JS Script Files -->
+    <script defer src="assets/js/main.js"></script>
+    <script defer src="assets/js/form.js"></script>
+
   </head>
 
   <!-- End head and start the body -->
@@ -191,6 +206,9 @@
                   </ul>
                 </div>
               </div>
+              <ul>
+
+
               <li>Automates processes and builds scalable applications.</li>
               <li>Passionate for helping others with meaningful purpose.</li>
               <li>
@@ -201,6 +219,7 @@
                 Demonstrates ability to lead technical teams, foster
                 collaboration, and drive projects to successful completion.
               </li>
+            </ul>
             </div>
           </div>
         </div>
@@ -484,6 +503,8 @@
                 <h5>Graduated 2024</h5>
                 <p><em>@ The University of Phoenix</em></p>
                 <h6><u>Information Systems:</u></h6>
+                <ul>
+                  
                 <li>
                   Classes included: Cloud Architecture, IT Infrastructure,
                   Enterprise Models, Risk Management, Data Analytics, Strategic
@@ -493,11 +514,15 @@
                 <li>
                   <u>Dean's List</u>
                 </li>
+                
+              </ul>
               </div>
 
               <div class="resume-item">
                 <h4>Bachelors Degree</h4>
                 <p><em>@ The University of Georgia</em></p>
+                <ol>
+                  
                 <li>
                   Awarded $15,000 merit-based Hope Scholarship
                 </li>
@@ -505,6 +530,8 @@
                   Dean's List
 
                 </li>
+                
+              </ol>
               </div>
 
               <div class="resume-item">
@@ -1048,6 +1075,7 @@
                 ></iframe>
               </div>
             </div>
+
             <!-- form on right side of last Row -->
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
               <div class="info">
@@ -1059,16 +1087,15 @@
                   </p>
                 </div>
               <form
-                action="https://formspree.io/f/xjvowzgy"
-                method="POST"
-                role="form"
+                id="contactForm"
                 class="php-email-form"
               >
+              <!-- top row = name and email -->
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input
                       type="text"
-                      name="name"
+                      name="from_name"
                       class="form-control"
                       id="name"
                       placeholder="Your Name"
@@ -1079,22 +1106,25 @@
                     <input
                       type="email"
                       class="form-control"
-                      name="_replyto"
-                      id="_replyto"
+                      name="email"
+                      id="email"
                       placeholder="Your Email"
-                      required
                     />
                   </div>
                 </div>
+                <!-- message row -->
                 <div class="form-group">
                   <textarea
                     class="form-control"
                     name="message"
-                    rows="5"
-                    placeholder="Message"
-                    required
+                    id="message"
+                    rows="4"
+                    placeholder="How can I help you?"
                   ></textarea>
                 </div>
+                
+                  <button type="submit" id="submit">Send Message</button>
+
           </div>
           <!-- end of bottom Row -->
         </div>
@@ -1118,19 +1148,5 @@
       class="back-to-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/typed.js/typed.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
   </body>
 </html>
