@@ -20,7 +20,7 @@ document
     emailjs
       .send("service_mbs3adl", "template_jytl819", formData)
       .then(() => {
-        alert("Thank you for your message! We will get back to you soon.");
+        alert("Thank you for your message! I will get back to you soon.");
         this.reset();
       })
       .catch((error) => {
